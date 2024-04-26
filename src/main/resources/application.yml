@@ -1,0 +1,13 @@
+spring:
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://localhost:5432/TravelBazaar
+        password: 123456 #Necesario cambiarlo por la contraseña de la base de datos
+        username: postgres #Necesario cambiarlo por el usuario de la base de datos
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+        show-sql: false
