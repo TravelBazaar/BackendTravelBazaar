@@ -16,7 +16,7 @@ import java.util.Map;
 
 @Tag(name = "Users", description = "the user API")
 @RestController
-@RequestMapping("/api/travelbazaar/v1") //@RequestMapping("/api/tripstore/v1")
+@RequestMapping("/api/travelbazaar/v1")
 public class UserController {
     private final UserService userService;
 
