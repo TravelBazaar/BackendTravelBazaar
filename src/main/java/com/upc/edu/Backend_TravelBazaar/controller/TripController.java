@@ -12,7 +12,7 @@ import java.util.List;
 
 @Tag(name = "Trips", description = "the trip API")
 @RestController
-@RequestMapping("/api/travelbazaar/v1")
+@RequestMapping("/api/travelbazaar/v1") //@RequestMapping("/api/tripstore/v1")
 public class TripController {
     private final TripService tripService;
 

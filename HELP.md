@@ -1,6 +1,8 @@
 # Read Me First
 The following was discovered as part of building this project:
 
+* The original package name 'com.upc.edu.Back-End-TripStore' is invalid and this project uses 'com.upc.edu.Backend_TravelBazaar' instead.
+
 # Getting Started
 
 ### Reference Documentation

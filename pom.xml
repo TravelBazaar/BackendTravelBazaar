@@ -11,7 +11,7 @@
 	<groupId>com.upc.edu</groupId>
 	<artifactId>Backend_TravelBazaar</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Back-End-TravelBaazar</name>
+	<name>Back-End-TripStore</name>
 	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
 	<properties>
