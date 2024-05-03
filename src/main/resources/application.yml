@@ -1,9 +1,9 @@
 spring:
     datasource:
         driver-class-name: org.postgresql.Driver
-        url: jdbc:postgresql://localhost:5432/TravelBazaar
-        password: 123456 #Necesario cambiarlo por la contraseña de la base de datos
-        username: postgres #Necesario cambiarlo por el usuario de la base de datos
+        url: jdbc:postgres://dpg-coq5q0779t8c738ac6q0-a.oregon-postgres.render.com/travelbaazardb
+        password: KbUZ4rvGASOKn7WzQp6RhuZJ0aFWEa1t #Necesario cambiarlo por la contraseña de la base de datos
+        username: travelbaazardb_user #Necesario cambiarlo por el usuario de la base de datos
     jpa:
         hibernate:
             ddl-auto: update
