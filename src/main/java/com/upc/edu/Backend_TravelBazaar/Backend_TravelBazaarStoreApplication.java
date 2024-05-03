@@ -19,7 +19,8 @@ public class Backend_TravelBazaarStoreApplication {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 				//Posiblemente, esto se cambie por un dominio en específico
-				registry.addMapping("/**").allowedOrigins("https://tripstore.netlify.app", "http://localhost:4200/").allowedMethods("*").allowedHeaders("*");
+				// dominios del front
+				registry.addMapping("/**").allowedOrigins("https://travelbaazartf.netlify.app", "http://localhost:4200/").allowedMethods("*").allowedHeaders("*");
 			}
 		};
 	}
